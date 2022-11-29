@@ -1,0 +1,434 @@
+[
+    {"type": 1, "section" : "Appetizers", "items" : [
+
+        {"name" : "Vegetable Pakora", 
+        "blurb" : "Mixed Vegetable fritters", 
+        "price": "$5.95",
+        "type" : "veg"
+        },
+
+        {"name" : "Vegetable Samosa", 
+        "blurb" : "Flaky pastry stuffed with Potato & Peas", 
+        "price": "$4.95",
+        "type" : "veg"
+        },
+
+        {"name" : "Samosa Chat", 
+        "blurb" : "Crispy Samosa with Yogurt & Tamarind Sauce", 
+        "price": "$7.45",
+        "type" : "veg"
+        },
+
+        {"name" : "Chicken 65", 
+        "blurb" : "Chicken fried with spicy chili", 
+        "price": "$10.45",
+        "type" : "non-veg"
+        }
+    ]},
+    
+    {"type": 2, "section" : "Veggie Choices", "items" : [
+
+        {"name" : "Yellow Dhal Fry",
+        "blurb" : "Boiled yellow lentils tempered with Indian spices",
+        "curry" : "$9.45",
+        "roti" : "$10.45",
+        "rice" : "$10.95"
+        },
+
+        {"name" : "Dhal Pakora Curry",
+        "blurb" : "Tempered yellow split lentil with Pakoras",
+        "curry" : "$9.99",
+        "roti" : "$10.99",
+        "rice" : "$10.99"
+        },
+
+        {"name" : "Channa Masala",
+        "blurb" : "Slow cooked Chickpeas curry",
+        "curry" : "$10.49",
+        "roti" : "$11.49",
+        "rice" : "$11.49"
+        },
+
+        {"name" : "Eggplant & Potato",
+        "blurb" : "Sauteed with Herbs and Finished with Curry Sauce",
+        "curry" : "$10.95",
+        "roti" : "$11.99",
+        "rice" : "$11.99"
+        },
+
+        {"name" : "Aloo Gobi",
+        "blurb" : "Cauliflower, Potato cooked with Peas",
+        "curry" : "$10.49",
+        "roti" : "$11.49",
+        "rice" : "$11.49"
+        },
+
+        {"name" : "Mixed Vegetable",
+        "blurb" : "Garden Fresh green Peas, Cauliflower & Potato",
+        "curry" : "$10.49",
+        "roti" : "$11.49",
+        "rice" : "$11.49"
+        },
+
+        {"name" : "Saag Aloo",
+        "blurb" : "Spinach, Potato cooked with Tomatoes, Onion Herbs",
+        "curry" : "$11.49",
+        "roti" : "$12.49",
+        "rice" : "$12.49"
+        },
+
+        {"name" : "Mixed Vegetable Korma",
+        "blurb" : "Garden vegetables in rich korma sauce",
+        "curry" : "$11.49",
+        "roti" : "$12.49",
+        "rice" : "$12.49"
+        },
+
+        {"name" : "Palak Paneer",
+        "blurb" : "Pureed Spinach & Cottage cheese with Cream",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+
+        {"name" : "Baingan Bhurtha",
+        "blurb" : "Oven roasted eggplant, Herbs & Green peas",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+
+        {"name" : "Mutter Paneer",
+        "blurb" : "Home made cottage cheese with cream and peas",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+
+        {"name" : "Paneer Makhni",
+        "blurb" : "Paneer cooked in creamy makhni sauce",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+        
+        {"name" : "Paneer Tikka Masala",
+        "blurb" : "Home made cottage cheese with cream and gram masala",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+
+        {"name" : "Shahi Paneer",
+        "blurb" : "Paneer cooked with creamy sauce",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+
+        {"name" : "Malai Kofta",
+        "blurb" : "Cheese and Potato cooked with creamy sauce",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        },
+
+        {"name" : "Saag Kofta",
+        "blurb" : "Cheese and Potato cooked with spinach and creamy sauce",
+        "curry" : "$11.99",
+        "roti" : "$12.99",
+        "rice" : "$12.99"
+        }
+    ]},
+
+    {"type": 2, "section" : "Chicken Choices", "items" : [
+
+        {"name" : "Chicken Curry",
+        "blurb" : "Chicken cooked in special curry sauce",
+        "curry" : "$12.49",
+        "roti" : "$13.49",
+        "rice" : "$13.49"
+        },
+
+        {"name" : "Chicken Jalfrezi",
+        "blurb" : "Cooked with garden fresh vegetables",
+        "curry" : "$12.99",
+        "roti" : "$13.99",
+        "rice" : "$13.99"
+        },
+
+        {"name" : "Chicken Saag",
+        "blurb" : "Cooked with purees spinach & herbs",
+        "curry" : "$12.95",
+        "roti" : "$13.99",
+        "rice" : "$13.99"
+        },
+
+        {"name" : "Chicken Tikka Masala",
+        "blurb" : "Chicken cooked with garam masala",
+        "curry" : "$12.99",
+        "roti" : "$13.99",
+        "rice" : "$13.99"
+        },
+    
+        {"name" : "Butter Chicken",
+        "blurb" : "Boneless white meat cooked with cream",
+        "curry" : "$13.49",
+        "roti" : "$14.49",
+        "rice" : "$14.49"
+        },
+
+        {"name" : "Chicken Vindaloo",
+        "blurb" : "Simmered in spicy & Tangy sauce",
+        "curry" : "$12.99",
+        "roti" : "$13.99",
+        "rice" : "$13.99"
+        },
+
+        {"name" : "Chicken Korma",
+        "blurb" : "Cooked in rich cashew based korma sauce",
+        "curry" : "$13.49",
+        "roti" : "$14.49",
+        "rice" : "$14.49"
+        },
+
+        {"name" : "Mango Chicken",
+        "blurb" : "Cooked with Mango and creamy mint sauce",
+        "curry" : "$13.49",
+        "roti" : "$14.49",
+        "rice" : "$14.49"
+        },
+
+        {"name" : "Madras Chicken Curry",
+        "blurb" : "Cooked n coconut milk & curry leaf gravy",
+        "curry" : "$13.49",
+        "roti" : "$14.49",
+        "rice" : "$14.49"
+        },
+
+        {"name" : "Chicken Chettinad",
+        "blurb" : "Cooked with black Pepper in south Indian style",
+        "curry" : "$13.49",
+        "roti" : "$14.49",
+        "rice" : "$14.49"
+        }
+    ]},
+
+    {"type": 2, "section" : "Lamb Choices", "items" : [
+
+        {"name" : "Lamb Curry",
+        "blurb" : "Lamb cooked in special curry sauce",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        },
+
+        {"name" : "Lamb Jalfrezi",
+        "blurb" : "Cooked with garden fresh vegetables",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        },
+
+        {"name" : "Lamb Saag",
+        "blurb" : "Cooked with purees spinach & herbs",
+        "curry" : "$14.49",
+        "roti" : "$15.49",
+        "rice" : "$15.49"
+        },
+
+        {"name" : "Lamb Tikka Masala",
+        "blurb" : "Lamb cooked with garam masala",
+        "curry" : "$14.49",
+        "roti" : "$15.49",
+        "rice" : "$15.49"
+        },
+
+        {"name" : "Lamb Vindaloo",
+        "blurb" : "Simmered in spicy & Tangy sauce",
+        "curry" : "$13.99",
+        "roti" : "$14.49",
+        "rice" : "$14.49"
+        },
+
+        {"name" : "Lamb Korma",
+        "blurb" : "Cooked in rich cashew based korma sauce",
+        "curry" : "$14.49",
+        "roti" : "$15.49",
+        "rice" : "$15.49"
+        },
+
+        {"name" : "Madras Lamb Curry",
+        "blurb" : "Cooked in coconut milk & curry leaf gravy",
+        "curry" : "$14.49",
+        "roti" : "$15.49",
+        "rice" : "$15.49"
+        },
+
+        {"name" : "Lamb Chettinad",
+        "blurb" : "Cooked with black Pepper in south Indian style",
+        "curry" : "$14.49",
+        "roti" : "$15.49",
+        "rice" : "$15.49"
+        }
+    ]},
+
+    {"type": 2, "section" : "Shrimp Choices", "items" : [
+
+        {"name" : "Shrimp Curry",
+        "blurb" : "Shrimp cooked in special curry sauce",
+        "curry" : "$12.99",
+        "roti" : "$13.99",
+        "rice" : "$13.99"
+        },
+
+        {"name" : "Shrimp Jalfrezi",
+        "blurb" : "Cooked with garden fresh vegetables",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        },
+
+        {"name" : "Shrimp Vindaloo",
+        "blurb" : "Simmered in spicy & Tangy sauce",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        },
+
+        {"name" : "Madras Shrimp Curry",
+        "blurb" : "Cooked in coconut milk & curry leaf gravy",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        },
+
+        {"name" : "Shrimp Chettinad",
+        "blurb" : "Cooked with black Pepper in south Indian style",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        },
+
+        {"name" : "Shrimp Shahi",
+        "blurb" : "Shrimp cooked in creamy sauce",
+        "curry" : "$13.99",
+        "roti" : "$14.99",
+        "rice" : "$14.99"
+        }
+
+    
+    ]},
+
+    {"type": 1, "section" : "Biriyani Choices", "items" : [
+        {"name" : "Vegetable Biryani", 
+        "price": "$11.49",
+        "type" : "veg"
+        },
+
+        {"name" : "Chicken Biryani", 
+        "price": "$12.99",
+        "type" : "non-veg"
+        },
+
+        {"name" : "Lamb Biryani", 
+        "price": "$14.49",
+        "type" : "non-veg"
+        },
+
+        {"name" : "Shrimp Biryani", 
+        "price": "$14.49",
+        "type" : "non-veg"
+        }
+    ]},
+
+    {"type": 1, "section" : "Sides", "items" : [
+
+        {"name" : "Plain Roti", 
+        "price": "$3.25"
+        },
+
+        {"name" : "Naan(Baked)", 
+        "price": "$2.45"
+        },
+
+        {"name" : "Plain Rice", 
+        "price": "$4.25"
+        },
+
+        {"name" : "Pluao Rice", 
+        "price": "$4.50"
+        },
+
+        {"name" : "Raita", 
+        "price": "$1.99"
+        },
+
+        {"name" : "Papdam", 
+        "price": "$1.50"
+        }
+    ]},
+
+    {"type": 1, "section" : "Desserts", "items" : [
+
+        {"name" : "Gulab Jamun", 
+        "price": "$3.50"
+        }
+
+    ]},
+
+    {"type": 1, "section" : "Beverages", "items" : [
+
+        {"name" : "Mango Lassi", 
+        "price": "$4.50"
+        },
+
+        {"name" : "Sweet/Salty Lassi", 
+        "price": "$3.99"
+        },
+
+        {"name" : "Soft Drinks", 
+        "price": "$1.75"
+        },
+
+        {"name" : "Bottled Water", 
+        "price": "$1.50"
+        }
+
+    ]},
+
+    {"type": 1, "section" : "Alcoholic Beverages", "items" : [
+
+        {"name" : "Molson", 
+        "price": "$3.99"
+        },
+
+        {"name" : "Budweiser", 
+        "price": "$3.99"
+        },
+
+        {"name" : "Corona", 
+        "price": "$4.50"
+        },
+
+        {"name" : "Kingfisher", 
+        "price": "$4.99"
+        },
+
+        {"name" : "Cheetah", 
+        "price": "$4.99"
+        },
+
+        {"name" : "Wine 6 oz.", 
+        "price": "$5.90"
+        },
+
+        {"name" : "Wine 9 oz.", 
+        "price": "$9.00"
+        }
+
+    ]}
+    
+]
+
+
