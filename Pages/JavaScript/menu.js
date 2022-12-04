@@ -20,8 +20,6 @@ fetch('JavaScript/menu.json')
                     let item = items[j];
 
 
-
-                    
                     if (j%3==0){
                         if(j==0){
                             prices = prices.concat("<div class= \"row\">")
@@ -34,10 +32,10 @@ fetch('JavaScript/menu.json')
 
 
                     if(item.blurb){ 
-                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p>", item.price, "<br>", item.blurb, "</p></div>");
+                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p class = \"test\">", item.blurb, "</p><h3>", item.price, "<h3></div>");
 
                     }else{
-                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p>", item.price, "</p></div>");
+                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <h3>", item.price, "<h3></div>");
 
                     }
                 }
@@ -57,7 +55,7 @@ fetch('JavaScript/menu.json')
                     }
 
                     let item = items[j];
-                    prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p> <br>",  item.blurb, "<br>","Curry: ", item.curry, "<br>", "Roti: ", item.roti,"<br>", "Rice: ", item.rice,"</p></div>");
+                    prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p> ",  item.blurb, "<br>Curry: ", item.curry, "<br>", "Roti: ", item.roti,"<br>", "Rice: ", item.rice,"</p></div>");
                 }
 
                 info.innerHTML = prices;

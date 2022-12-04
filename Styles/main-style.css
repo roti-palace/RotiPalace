@@ -92,11 +92,11 @@ nav img:hover{
     color: rgb(26, 255, 19);
 }
 
-
 .nav-links span a{
     color: rgb(26, 255, 19);
     pointer-events: none;
 }
+
 .nav-links span a::after{
     content: '';
     width: 100%;
@@ -115,9 +115,9 @@ nav img:hover{
 }
 .burger div{
     width: 22px;
-    height: 2.5px;
-    background-color: black;
-    margin: 3.7px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
     transition: all 0.17s ease;
 }
 
@@ -127,7 +127,7 @@ nav img:hover{
     background-image: linear-gradient(rgba(40,36,36, 0.5), rgba(167, 142, 142, 0.5)), url("../../Images/hero.jpg");
   
     /* Set a specific height */
-    height: 91%;
+    height: 95%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -190,29 +190,56 @@ nav img:hover{
 }
 
 .hours{
-    width: 70%;
-    margin: auto;   
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;  
 }
+
+
 .float-child{
-    padding: 1%;
+    flex-basis: 49%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
     float: left;
-    width: 50%;
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.tt:hover{
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .float-child img{
     border-radius: 10px;   
+    margin: auto;
+    display: block;
+}
+
+.float-child img:hover{
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.3);
+}
+.tt{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    
 }
 
 .float-child h1{
     font-size: xxx-large;
 }
 .mon{
-    padding-top: 5px;
+    margin-top: 5px;
     font-size: xx-large;
 }
 .time{
-    padding-top: 2px;
+    margin-top: 2px;
     font-size: x-large;
 }
 
@@ -225,20 +252,22 @@ nav img:hover{
 #menu-section h1{
     text-align: center;
     font-size: 35px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-#menu-section h2,
+#menu-section h2{
+    font-size: 18px;
+    
+}
 #menu-section p {
-    font-size: 15px;
-    display: inline;
-    vertical-align: top;
+    font-size: 12px;
 }
-
-
 
 .row{
     display: flex;
     justify-content: space-between;
+    overflow: hidden; 
 }
 
 .col{
@@ -247,4 +276,83 @@ nav img:hover{
     padding-top: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    border-bottom: solid;
 }
+
+@media (max-width: 1290px){
+    .float-child img{
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 880px){
+    .hours{
+        flex-direction: column;
+        margin-top: 4%;
+    }
+    .tt{
+        transform: translateY(0%);
+    }
+    .float-child{
+        background-color: antiquewhite;
+    }
+    .float-child img{
+        width: 300px;
+        height: auto;
+    }
+    .burger{
+        display: block;
+        z-index: 550;
+    }
+
+    .nav-links{
+        position: absolute;
+        right:0px;
+        height: 100vh;
+        width: 40%;
+        top: 0vh;
+        background-color: rgba(40,36,36, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:40px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+
+    .nav-links li{
+        padding: 30px;
+        opacity: 0;
+    }
+}
+
+.nav-active{
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade{
+  from{
+      opacity: 0;
+      transform: translateX(50px);
+
+  }
+  to{
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-3px,6.5px);
+
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-3px,-7.5px);
+}
+/*To stop side scrolling*/
+html { overflow:auto; }
