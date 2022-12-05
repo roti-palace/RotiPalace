@@ -55,7 +55,11 @@ fetch('JavaScript/menu.json')
                     }
 
                     let item = items[j];
-                    prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p> ",  item.blurb, "<br>Curry: ", item.curry, "<br>", "Roti: ", item.roti,"<br>", "Rice: ", item.rice,"</p></div>");
+                    prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p> ",  item.blurb, "</p> <ul class=\"pa-dot-leaders\">",
+                    "<li> <span> Curry: </span> <span>", item.curry, "</span></li>",
+                    "<li> <span> Roti: </span> <span>", item.roti, "</span></li>",
+                    "<li> <span> Rice: </span> <span>", item.rice, "</span></li>",
+                    "</ul></div>");
                 }
 
                 info.innerHTML = prices;
