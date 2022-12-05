@@ -32,10 +32,10 @@ fetch('JavaScript/menu.json')
 
 
                     if(item.blurb){ 
-                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p class = \"test\">", item.blurb, "</p><h3>", item.price, "<h3></div>");
+                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p class = \"test\">", item.blurb, "</p><h3> <div class=\"before-price\"></div>", item.price, "</h3> <div class=\"after-price\"></div> </div>");
 
                     }else{
-                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <h3>", item.price, "<h3></div>");
+                        prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <h3> <div class=\"before-price\"></div>", item.price, "</h3> <div class=\"after-price\"></div> </div>");
 
                     }
                 }
@@ -55,11 +55,11 @@ fetch('JavaScript/menu.json')
                     }
 
                     let item = items[j];
-                    prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p> ",  item.blurb, "</p> <ul class=\"pa-dot-leaders\">",
-                    "<li> <span> Curry: </span> <span>", item.curry, "</span></li>",
-                    "<li> <span> Roti: </span> <span>", item.roti, "</span></li>",
-                    "<li> <span> Rice: </span> <span>", item.rice, "</span></li>",
-                    "</ul></div>");
+                    prices  = prices.concat("<div class= \"col\"><h2>", item.name, "</h2> <p> ",  item.blurb, "</p> <div class=\"before-price\"></div> <ul class=\"pa-dot-leaders\">",
+                    "<li> <span> Curry </span> <span>", item.curry, "</span></li>",
+                    "<li> <span> Roti (Wrap) </span> <span>", item.roti, "</span></li>",
+                    "<li> <span> Rice </span> <span>", item.rice, "</span></li>",
+                    "</ul> <div class=\"after-price\"></div> </div> ");
                 }
 
                 info.innerHTML = prices;

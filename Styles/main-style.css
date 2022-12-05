@@ -244,6 +244,15 @@ nav img:hover{
     font-size: x-large;
 }
 
+#menu-sheet{
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    width: 90%;
+    border-radius: 40px;
+    background-color: rgb(181,232,213);
+    margin-left: auto;
+    margin-right: auto;
+}
 #menu-section{
     width: 90%;
     margin-left: auto;
@@ -253,59 +262,78 @@ nav img:hover{
 #menu-section h1{
     text-align: center;
     font-size: 35px;
-    padding-top: 2%;
+    padding-top: 40px;
     padding-bottom: 2%;
+}
+
+#menu-section h1::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    display:block;
+    margin: auto;
 }
 
 #menu-section h2{
     font-size: 18px;
-    
+}
+
+#menu-section h3{
+    font-size: 18px;
 }
 #menu-section p {
     font-size: 12px;
+
 }
 
 .row{
     display: flex;
     justify-content: space-between;
     overflow: hidden; 
+    
 }
 
 .col{
     flex-basis: 32%;
-    margin-bottom: 1.5%;
     padding-top: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-    border-bottom: solid;
+    border-bottom: solid 1px;
+    margin-bottom: 40px;
 }
 
 
 
 
-ul.pa-dot-leaders {
+.pa-dot-leaders {
     max-width: 40em;
     padding: 0;
     overflow-x: hidden;
     list-style: none}
-ul.pa-dot-leaders li:before {
+.pa-dot-leaders li:before {
     float: left;
     width: 0;
     white-space: nowrap;
     content:
  ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
 }
-ul.pa-dot-leaders  span:first-child {
+.pa-dot-leaders  span:first-child {
     padding-right: 0.33em;
-    background: white}
-ul.pa-dot-leaders span + span {
+    background: rgb(181,232,213)}
+.pa-dot-leaders span + span {
     float: right;
     padding-left: 0.33em;
-    background: white}
+    background: rgb(181,232,213)}
 
 
 
-
+.after-price{
+    height: 20px;
+}
+.before-price{
+    height: 10px;
+}
 
 @media (max-width: 1290px){
     .float-child img{
@@ -319,7 +347,11 @@ ul.pa-dot-leaders span + span {
     }
 }
 
-@media (max-width: 880px){
+@media (max-width: 900px){
+    .row{
+        flex-direction: column;
+
+    }
     .hours{
         flex-direction: column;
         margin-top: 4%;
@@ -361,7 +393,7 @@ ul.pa-dot-leaders span + span {
        font-size: 68px; 
     }
     .p2{
-        font-size: 50px; 
+        font-size: 10px; 
         display:block;
         margin-top: -12px;
         padding-bottom: 10px;
@@ -373,7 +405,17 @@ ul.pa-dot-leaders span + span {
         width: 250px;
         height: auto;
     }
+
+    #menu-sheet{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
+
+
+
+
 .nav-active{
     transform: translateX(0);
 }
