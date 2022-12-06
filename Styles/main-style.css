@@ -460,6 +460,7 @@ nav img:hover{
 
 .copyright{
     padding-top: 4px;
+    padding-bottom: 10px;
 }
 footer{
     text-align: center;
@@ -549,7 +550,7 @@ footer{
        font-size: 68px; 
     }
     .p2{
-        font-size: 10px; 
+        font-size: 40px; 
         display:block;
         margin-top: -12px;
         padding-bottom: 10px;
