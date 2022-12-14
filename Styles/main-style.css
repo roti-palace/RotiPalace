@@ -487,6 +487,9 @@ footer{
 }
 
 @media (max-width: 900px){
+    .hero-about{
+        padding-top: 12vh;
+    }
     #menu-section h1{
         padding-bottom: 20px;
     }
