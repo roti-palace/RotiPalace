@@ -19,12 +19,12 @@
          
          
          {"name": "Malli Dosa (Cilantro)",
-         "price": "$10.99"
+         "price": "$10.99",
          "type": "veg"},
          
          
          {"name": "Chettinad Dosa",
-         "price": "$11.99"
+         "price": "$11.99",
          "type": "veg"},
          
          
@@ -42,8 +42,8 @@
          "price": "$13.99",
          "type": "veg"},
          
-          {"name": "ChickenTikka Dosa",
-         "price": "$14.99"
+          {"name": "Chicken Tikka Dosa",
+         "price": "$14.99",
          "type": "non-veg"},
          
          {"name": "Chilli Cheese Dosa",
