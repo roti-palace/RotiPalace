@@ -515,37 +515,7 @@
 
     ]},
 
-    {"type": 1, "section" : "Alcoholic Beverages", "items" : [
 
-        {"name" : "Molson", 
-        "price": "$3.99"
-        },
-
-        {"name" : "Budweiser", 
-        "price": "$3.99"
-        },
-
-        {"name" : "Corona", 
-        "price": "$4.50"
-        },
-
-        {"name" : "Kingfisher", 
-        "price": "$4.99"
-        },
-
-        {"name" : "Cheetah", 
-        "price": "$4.99"
-        },
-
-        {"name" : "Wine 6 oz.", 
-        "price": "$5.90"
-        },
-
-        {"name" : "Wine 9 oz.", 
-        "price": "$9.00"
-        }
-
-    ]}
     
 ]
 
