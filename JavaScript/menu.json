@@ -368,8 +368,44 @@
         }
     ]},
 
-    {"type": 1, "section" : "Desserts", "items" : [
 
+        {"type": 1, "section" : "Dosas", "items" : [
+
+        {"name" : "Plain Dosa", 
+        "price": "$9.90"
+        },
+
+        {"name" : "Masala Dosa", 
+        "price": "$12.49"
+        },
+
+        {"name" : "Mysore Dosa", 
+        "price": "$11.49"
+        },
+
+        {"name" : "Mysore Masala Dosa", 
+        "price": "$12.49"
+        },
+
+        {"name" : "Chana Masala Dosa", 
+        "price": "$12.99"
+        },
+
+        {"name" : "Chicken Tikka Dosa", 
+        "price": "$14.99"
+        }
+
+        {"name" : "Plain Uttapam", 
+        "price": "$10.49
+        }
+                
+         {"name" : "Onion Uttapam", 
+        "price": "$11.49
+        }
+        
+   ]},
+
+        {"type": 1, "section" : "Dessert", "items" : [
         {"name" : "Gulab Jamun", 
         "price": "$3.50"
         }
