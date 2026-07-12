@@ -321,25 +321,25 @@
 
     {"type": 1, "section" : "Biriyani Choices", "items" : [
         {"name" : "Vegetable Biryani", 
-	"blurb" : "Basmati rice cooked with mixed vegetables and whole spices.",
+		"blurb" : "Basmati rice cooked with mixed vegetables and whole spices.",
         "price": "$12.99",
         "type" : "veg"
         },
 
         {"name" : "Chicken Biryani",
-	"blurb" : "Aromatic basmati layered with spiced boneless chicken and fried onions.", 
+		"blurb" : "Aromatic basmati layered with spiced boneless chicken and fried onions.", 
         "price": "$13.99",
         "type" : "non-veg"
         },
 
         {"name" : "Lamb Biryani", 
-	"blurb" : "Slow-cooked lamb and basmati infused with rich spices.",
+		"blurb" : "Slow-cooked lamb and basmati infused with rich spices.",
         "price": "$15.49",
         "type" : "non-veg"
         },
 
         {"name" : "Shrimp Biryani", 
-	"blurb" : "Basmati rice with spiced shrimp and fresh herbs.",
+		"blurb" : "Basmati rice with spiced shrimp and fresh herbs.",
         "price": "$15.49",
         "type" : "non-veg"
         }
@@ -348,32 +348,32 @@
     {"type": 1, "section" : "Sides", "items" : [
 
         {"name" : "Plain Roti", 
-	"blurb" : "Large piece of romali roti.",
+		"blurb" : "Large piece of romali roti.",
         "price": "$3.25"
         },
 
         {"name" : "Naan(Baked)", 
-	"blurb" : "Oven baked flat bread.",
+		"blurb" : "Oven baked flat bread.",
         "price": "$2.45"
         },
 
         {"name" : "Plain Rice", 
-	"blurb" : "Fluffy seamed basmati rice.",
+		"blurb" : "Fluffy seamed basmati rice.",
         "price": "$4.25"
         },
 
         {"name" : "Pluao Rice",
-	"blurb" : "Fragrant basmati rice with whole spices.", 
+		"blurb" : "Fragrant basmati rice with whole spices.", 
         "price": "$4.50"
         },
 
         {"name" : "Raita", 
-	"blurb" : "Cooling yogurt with chopped onion and roasted cumin.",
+		"blurb" : "Cooling yogurt with chopped onion and roasted cumin.",
         "price": "$1.99"
         },
 
         {"name" : "Papdam", 
-	"blurb" : "Thin, crispy lentil wafer.",
+		"blurb" : "Thin, crispy lentil wafer.",
         "price": "$1.50"
         }
     ]},
@@ -382,90 +382,89 @@
         {"type": 1, "section" : "Dosas", "items" : [
 
         {"name" : "Plain Dosa",
-	"blurb" : "Golden, crispy rice and lentil crepe.", 
+		"blurb" : "Golden, crispy rice and lentil crepe.", 
         "price": "$9.49"
         },
 
         {"name" : "Masala Dosa", 
-	"blurb" : "Classic dosa filled with spiced potato masala.",
+		"blurb" : "Classic dosa filled with spiced potato masala.",
         "price": "$12.99"
         },
 
         {"name" : "Mysore Dosa", 
-	"blurb" : "Dosa spread with a spicy red chutney inside.",
+		"blurb" : "Dosa spread with a spicy red chutney inside.",
         "price": "$10.49"
         },
 
         {"name" : "Mysore Masala Dosa",
-	"blurb" : "Mysore dosa filled with spiced potato masala.", 
+		"blurb" : "Mysore dosa filled with spiced potato masala.", 
         "price": "$12.99"
         },
 
         {"name" : "Chana Masala Dosa", 
-	"blurb" : "Dosa filled with tangy chickpea masala.",
+		"blurb" : "Dosa filled with tangy chickpea masala.",
         "price": "$11.99"
         },
 
-	{"name" : "Paneer Tikka Dosa", 
-	"blurb" : "Dosa filled with spiced paneer tikka.",
+		{"name" : "Paneer Tikka Dosa", 
+		"blurb" : "Dosa filled with spiced paneer tikka.",
         "price": "$13.99"
         },
 
-	{"name" : "Podi Dosa", 
-	"blurb" : "Dosa dusted with spiced lentil powder.",
+		{"name" : "Podi Dosa", 
+		"blurb" : "Dosa dusted with spiced lentil powder.",
         "price": "$10.99"
         },
 
-	{"name" : "Podi Masala Dosa", 
-	"blurb" : "Podi dosa with spiced potato masala filling.",
+		{"name" : "Podi Masala Dosa", 
+		"blurb" : "Podi dosa with spiced potato masala filling.",
         "price": "$12.99"
         },
 
         {"name" : "Chicken Chettinad Dosa", 
-	"blurb" : "Dosa filled with bold, peppery Chettinad chicken.",
+		"blurb" : "Dosa filled with bold, peppery Chettinad chicken.",
         "price": "$14.99"
         },
 	
-	{"name" : "Ghee Dosa", 
-	"blurb" : "Crisp dosa brushed generously with pure ghee.",
+		{"name" : "Ghee Dosa", 
+		"blurb" : "Crisp dosa brushed generously with pure ghee.",
         "price": "$11.99"
         },
 	
-	{"name" : "Ghee Masala Dosa", 
-	"blurb" : "Ghee dosa filled with spiced potato masala.",
+		{"name" : "Ghee Masala Dosa", 
+		"blurb" : "Ghee dosa filled with spiced potato masala.",
         "price": "$12.99"
         },
 
-	{"name" : "Kal Dosa", 
-	"blurb" : "Soft, thick South Indian griddle dosa.",
+		{"name" : "Kal Dosa", 
+		"blurb" : "Soft, thick South Indian griddle dosa.",
         "price": "$9.99"
         },
 
-	{"name" : "Kal Dosa With Chicken Chettnad", 
-	"blurb" : "Soft kal dosa served with peppery Chettinad chicken.",
+		{"name" : "Kal Dosa With Chicken Chettnad", 
+		"blurb" : "Soft kal dosa served with peppery Chettinad chicken.",
         "price": "$13.99"
         },
 
-	{"name" : "Garlic Butter Dosa", 
-	"blurb" : "Crisp dosa layered with garlic butter and herbs.",
+		{"name" : "Garlic Butter Dosa", 
+		"blurb" : "Crisp dosa layered with garlic butter and herbs.",
         "price": "$12.99"
         },
 
         {"name" : "Onion Uttapam", 
-	"blurb" : "Thick dosa topped with onions and herbs.",
+		"blurb" : "Thick dosa topped with onions and herbs.",
         "price": "$10.49"
         },
                 
         {"name" : "Onion Chilli Uttapam", 
-	"blurb" : "Uthappam topped with onions and green chilies.",
+		"blurb" : "Uthappam topped with onions and green chilies.",
         "price": "$11.49"
         }
 
-	{"name" : "Onion Podi Uttapam", 
-	"blurb" : "Uthappam topped with onions and spiced lentil powder.",
+		{"name" : "Onion Podi Uttapam", 
+		"blurb" : "Uthappam topped with onions and spiced lentil powder.",
         "price": "$11.99"
         }
-
         
    ]},
 
