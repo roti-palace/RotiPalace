@@ -459,7 +459,7 @@
         {"name" : "Onion Chilli Uttapam", 
 		"blurb" : "Uthappam topped with onions and green chilies.",
         "price": "$11.49"
-        }
+        },
 
 		{"name" : "Onion Podi Uttapam", 
 		"blurb" : "Uthappam topped with onions and spiced lentil powder.",
@@ -470,7 +470,7 @@
 
         {"type": 1, "section" : "Dessert", "items" : [
         {"name" : "Gulab Jamun", 
-	"blurb" : "Warm milk dumplings soaked in cardamom and sweet syrup.",
+		"blurb" : "Warm milk dumplings soaked in cardamom and sweet syrup.",
         "price": "$3.50"
         }
 
@@ -479,12 +479,12 @@
     {"type": 1, "section" : "Beverages", "items" : [
 
         {"name" : "Mango Lassi", 
-	"blurb" : "Creamy yogurt drink blended with sweet ripe mango pulp.",
+		"blurb" : "Creamy yogurt drink blended with sweet ripe mango pulp.",
         "price": "$4.50"
         },
 
         {"name" : "Sweet/Salty Lassi", 
-	"blurb" : "Chilled yogurt drink, sweetened or lightly salted with cumin.",
+		"blurb" : "Chilled yogurt drink, sweetened or lightly salted with cumin.",
         "price": "$3.99"
         },
 
